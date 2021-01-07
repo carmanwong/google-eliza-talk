@@ -3,6 +3,9 @@ A python programme connect Google search engine with Eliza AI. Eliza ask questio
 
 Here is a more detailed project description: https://carmanyesno.wixsite.com/elizagoogletalk
 
+The project video is here of how the 2 robot really talk: https://www.youtube.com/watch?v=_qxNwdrNrg0
+
+
 Here are some extracted interesting conversations between Google and Eliza:
 
 Hello. What do you want Google to discuss with Eliza?

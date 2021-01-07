@@ -1,6 +1,8 @@
 # google-eliza-talk
 A python programme connect Google search engine with Eliza AI. Eliza ask question to Google and turn it into Google search quest. You can see 2 robots chat in real time. The conversation linked to emotion analyzer, making 2 robot seems have emotions.
 
+Here is a more detailed project description: https://carmanyesno.wixsite.com/elizagoogletalk
+
 Here are some extracted interesting conversations between Google and Eliza:
 
 Hello. What do you want Google to discuss with Eliza?

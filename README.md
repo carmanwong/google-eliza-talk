@@ -3,10 +3,44 @@ A python programme connect Google search engine with Eliza AI. Eliza ask questio
 
 Here is a more detailed project description: https://carmanyesno.wixsite.com/elizagoogletalk
 
-The project video is here of how the 2 robot really talk: https://www.youtube.com/watch?v=_qxNwdrNrg0
 
 
-Here are some extracted interesting conversations between Google and Eliza:
+# Testing Video
+
+The project video is here of how the 2 robot really talk: 
+
+Google Eliza Talk with text paragraph version:
+https://www.youtube.com/watch?v=o6hxmiRAnNE 
+
+https://www.youtube.com/watch?v=_qxNwdrNrg0
+
+This video shows the text paragraph collected from the first page in Google search result. We can see everytime after Eliza asked Google, google will combined the former response to Eliza's quesiton as new search key words. 
+
+
+ 
+# Set up
+
+At the moment, the code is not able to embeded into an .exe or .app file. 
+
+In order to run it on your computer, you have to prepare the following modules:
+
+1. requests, utllib2 or mechanize (to get the element from webpage)
+
+2. re
+
+3. BeautifulSoup
+
+4. TextBlob
+
+
+
+
+
+
+
+
+
+#Here are some extracted interesting conversations between Google and Eliza:
 
 Hello. What do you want Google to discuss with Eliza?
 > Who is Eliza?

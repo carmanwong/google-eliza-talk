@@ -321,11 +321,11 @@ def text_generator(topic):
 
 
 def first_console():
-    print "Hello. What do you want Google to discuss with Eliza?"
+    print("Hello. What do you want Google to discuss with Eliza?")
 
     while True:
         topic = raw_input("> ")
-        print "How many times do you want Google to talk with Eliza?"
+        print ("How many times do you want Google to talk with Eliza?")
         re_time = int(raw_input("> "))
 
         if topic == "quit":
@@ -335,7 +335,7 @@ def first_console():
 
         while (re_time > 0) is True:
             statement = " ".join(str(text_generator(statement)).split())
-            print statement
+            print (statement)
             print ( " ")
             print ( " ")
             print ( " ")
@@ -347,7 +347,7 @@ def first_console():
             time.sleep(3)
 
             print ("   [   ELIZA               '_'  ] ")
-            print analyze(statement)
+            print ( analyze (statement))
 
             statement = statement + analyze(statement)
 
